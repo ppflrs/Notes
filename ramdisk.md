@@ -7,4 +7,5 @@ You can access to the disk via the /Volumes/ folder.
 To delete the ramdisk
 
 umount -f /Volumes/$RAMDISK
+
 hdiutil detach /Volumes/$RAMDISK
